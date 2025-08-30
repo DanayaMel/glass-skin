@@ -1,0 +1,60 @@
+.app {
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-heading {
+  padding: 45px;
+  background-color: darkmagenta;
+}
+
+.header-nav {
+  list-style: none;
+  display: inline-flex;
+  background-color: aquamarine;
+}
+
+.header-nav li {
+  padding: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.header-actions {
+  list-style: none;
+  display: inline-flex;
+  background-color: aquamarine;
+}
+
+.header-actions li {
+  padding: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.hero-nav {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  height: 100px; /* Adjust based on your text length */
+  align-items: center;
+}
+
+.hero-nav li {
+  transform: rotate(90deg);
+  white-space: nowrap;
+  /* You might need to adjust these depending on your text length */
+  width: 20px; /* Height becomes width after rotation */
+  height: 100px; /* Width becomes height after rotation */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
