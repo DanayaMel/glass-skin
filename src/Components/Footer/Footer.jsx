@@ -7,7 +7,7 @@ function Footer() {
   const nav = ["Best Seller", "Skin Products", "Track Your Order", "About Us"];
 
   return (
-    <div>
+    <div className="section--cream">
       <div>
         <p>Love to Learn Yourself!</p>
         <Socials />

@@ -1,6 +1,6 @@
 function Card(props) {
   return (
-    <div>
+    <div className={props.className}>
       <h4>{props.title}</h4>
       <p>{props.description}</p>
     </div>

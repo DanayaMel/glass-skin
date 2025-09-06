@@ -4,7 +4,7 @@ import AboutUs from "./AboutUs";
 
 function ProductShowcase() {
   return (
-    <div>
+    <div className="product-showcase">
       <Benefits />
       <BestSelling />
       <AboutUs />

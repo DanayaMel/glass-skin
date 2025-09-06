@@ -3,11 +3,13 @@ import Product from "./Product";
 
 function BestSelling() {
   return (
-    <div>
+    <div className="best-selling">
       <Heading text="Best Selling" />
-      <Product id="1" />
-      <Product id="2" />
-      <Product id="3" />
+      <div className="horizontal">
+        <Product id="1" />
+        <Product id="2" />
+        <Product id="3" />
+      </div>
     </div>
   );
 }

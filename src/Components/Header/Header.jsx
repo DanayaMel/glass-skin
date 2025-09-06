@@ -1,9 +1,17 @@
 import Heading from "../shared/Heading";
 import Menu from "../shared/Menu";
+import Button from "../shared/Button";
+import { LuSearch } from "react-icons/lu";
+import { RiShoppingBasketLine } from "react-icons/ri";
+import { LuUser } from "react-icons/lu";
 
 function Header() {
   const nav = ["Flavors", "Store", "Blog", "About Us"];
-  const actions = ["Search", "Cart", "Account"];
+  const actions = [
+    <Button content={<LuSearch />} ariaLabel="Search" />,
+    <Button content={<RiShoppingBasketLine />} ariaLabel="Cart" />,
+    <Button content={<LuUser />} ariaLabel="User" />,
+  ];
 
   return (
     <div className="header">

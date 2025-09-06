@@ -1,60 +1,110 @@
-.app {
-  padding: 50px;
+:root {
+  --font-hero: "Playfair Display", serif;
+  --font-body: "DM Mono", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: var(--font-hero);
+}
+
+body,
+nav,
+button,
+p {
+  font-family: var(--font-body);
+}
+
+.section--cream {
+  background-color: #fffaee;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit; /* inherit font styles from parent */
+  color: inherit; /* inherit text color */
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  height: 195px;
+  padding: 0px 43px; /* top+bottom = 0px, left+right = 43px */
 }
 
 .header-heading {
-  padding: 45px;
-  background-color: darkmagenta;
+  text-transform: uppercase;
 }
 
 .header-nav {
-  list-style: none;
   display: inline-flex;
-  background-color: aquamarine;
+  list-style: none;
 }
 
 .header-nav li {
-  padding: 50px;
+  padding: 0px 40px;
+  font-size: 13px;
   text-transform: uppercase;
-  font-size: 12px;
 }
 
 .header-actions {
-  list-style: none;
   display: inline-flex;
-  background-color: aquamarine;
+  list-style: none;
 }
 
 .header-actions li {
-  padding: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-transform: uppercase;
-  font-size: 10px;
-}
-
-.hero-nav {
-  display: flex;
-  list-style: none;
-  gap: 16px;
-  padding: 0;
-  margin: 0;
-  height: 100px; /* Adjust based on your text length */
-  align-items: center;
+  width: 48px;
+  font-size: 25px;
 }
 
 .hero-nav li {
   transform: rotate(90deg);
   white-space: nowrap;
-  /* You might need to adjust these depending on your text length */
-  width: 20px; /* Height becomes width after rotation */
-  height: 100px; /* Width becomes height after rotation */
+  width: 20px; /* Hr rotation */
+  height: 90px; /* Width becomes height after rotation */
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hero-item {
+  display: flex;
+  align-items: center;
+}
+
+.product-showcase .best-selling .hero {
+  /* centers the whole stack in the page width */
+  /* width: min(640px, 90vw); */
+  /* margin: 40px auto; */
+
+  /* vertical stack */
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+}
+
+.product-showcase > * {
+  /* padding: 16px; */
+  text-align: center;
 }

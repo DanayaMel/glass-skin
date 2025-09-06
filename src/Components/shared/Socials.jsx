@@ -1,8 +1,8 @@
 import Menu from "../shared/Menu";
 
-function Socials() {
+function Socials(props) {
   const nav = ["LinkedIn", "BlueSky", "Meta"];
-  return <Menu items={nav} />;
+  return <Menu className={props.className} items={nav} />;
 }
 
 export default Socials;

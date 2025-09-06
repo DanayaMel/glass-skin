@@ -3,11 +3,13 @@ import Heading from "../shared/Heading";
 
 function Benefits() {
   return (
-    <div>
+    <div className="benefits">
       <Heading text="Our Benefits" />
-      <Card title="Best Quality" description="Lorem Ipsum" />
-      <Card title="Free Shipping" description="Lorem Ipsum" />
-      <Card title="Warranty" description="Lorem Ipsum" />
+      <div className="horizontal">
+        <Card title="Best Quality" description="Lorem Ipsum" />
+        <Card title="Free Shipping" description="Lorem Ipsum" />
+        <Card title="Warranty" description="Lorem Ipsum" />
+      </div>
     </div>
   );
 }

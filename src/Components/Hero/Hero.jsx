@@ -8,10 +8,16 @@ function Hero() {
 
   return (
     <div className="hero">
-      <Menu className="hero-nav" items={nav} />
-      <Socials />
-      <MainImage />
-      <TopCTA />
+      <div className="horizontal">
+        <div className="vertical">
+          <Menu className="hero-nav" items={nav} />
+          <Socials className="hero-nav" />
+        </div>
+        <div className="hero-item horizontal">
+          <MainImage />
+          <TopCTA />
+        </div>
+      </div>
     </div>
   );
 }

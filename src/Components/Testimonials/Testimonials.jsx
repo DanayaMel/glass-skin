@@ -3,7 +3,7 @@ import Heading from "../shared/Heading";
 
 function Testimonials() {
   return (
-    <div className="testimonials">
+    <div className="section--cream testimonials">
       <div>
         <Heading text="Testimonials" />
         {/* <Icon className="left-arrow" />
