@@ -17,6 +17,7 @@ nav,
 button,
 p {
   font-family: var(--font-body);
+  font-weight: 550;
 }
 
 .section--cream {
@@ -78,33 +79,20 @@ button {
   font-size: 25px;
 }
 
-.hero-nav li {
-  transform: rotate(90deg);
-  white-space: nowrap;
-  width: 20px; /* Hr rotation */
-  height: 90px; /* Width becomes height after rotation */
+.hero {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  height: 195px;
+  padding: 0px 43px; /* top+bottom = 0px, left+right = 43px */
 }
 
-.hero-item {
-  display: flex;
-  align-items: center;
+.hero-nav .hero-socials {
+  transform: rotate(-90deg);
+  display: inline-flex;
+  position: absolute; /* Takes it out of normal flow */
 }
 
-.product-showcase .best-selling .hero {
-  /* centers the whole stack in the page width */
-  /* width: min(640px, 90vw); */
-  /* margin: 40px auto; */
-
-  /* vertical stack */
-  display: flex;
-  flex-direction: column;
-  /* gap: 16px; */
-}
-
-.product-showcase > * {
-  /* padding: 16px; */
-  text-align: center;
+.hero-socials {
+  list-style: none;
 }
