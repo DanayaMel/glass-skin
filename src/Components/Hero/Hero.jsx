@@ -12,7 +12,7 @@ function Hero() {
         <Menu className="hero-nav" items={nav} />
         <Socials className="hero-socials" />
       </div>
-      <img className="hero-image" src={heroImg} width="798px" height="988px" />
+      <img className="hero-image" src={heroImg} width="688px" height="878px" />
       <TopCTA className="hero-cta" />
     </div>
   );
