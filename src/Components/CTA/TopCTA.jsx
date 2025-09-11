@@ -1,14 +1,19 @@
-import Form from "../shared/Form";
+import Button from "../shared/Button";
 
 function TopCTA() {
   return (
-    <div>
-      <h1 className="main-heading">Sunday Riley</h1>
-      <Form
-        heading=""
-        description="Lorem Ipsum"
-        buttonText="Buy Now | $39.99"
-      />
+    <div className="top-cta">
+      <h1 className="main-heading">
+        Sunday
+        <br />
+        Rieley
+      </h1>
+      <p className="top-cta-text">
+        Formulated with Goji Berry, Lemon Balm, and Vitamin E to provide
+        antioxidant protection against free radicals. Inspired by Korean
+        skincare healthy-looking skin.
+      </p>
+      <Button content="Buy Now | $39.99" />
     </div>
   );
 }

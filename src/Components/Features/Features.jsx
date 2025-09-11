@@ -3,10 +3,23 @@ import Heading from "../shared/Heading";
 
 function Features() {
   return (
-    <div className="section--cream horizontal">
-      <Heading text="Lorem Ipsum" />
-      <Card title="4.6" description="3,350 Ratings" />
-      <Card title="6M+" description="Worldwide Product sale per year" />
+    <div className="features section--cream horizontal">
+      <Heading
+        className="features-heading"
+        text={"Trusted by over 350,000+ clients\nworldwide since 2008"}
+      />
+      <Card
+        titleClassName="features-card-title-ratings"
+        title="4.6"
+        descriptionClassName="features-card-description"
+        description={"⭐⭐⭐⭐⭐\n3,350 Ratings"}
+      />
+      <Card
+        titleClassName="features-card-title-sales"
+        title="6M+"
+        descriptionClassName="features-card-description"
+        description={"Worldwide product\nsales per year"}
+      />
     </div>
   );
 }

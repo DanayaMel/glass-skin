@@ -8,13 +8,21 @@ import { LuUser } from "react-icons/lu";
 function Header() {
   const nav = ["Flavors", "Store", "Blog", "About Us"];
   const actions = [
-    <Button content={<LuSearch />} ariaLabel="Search" />,
-    <Button content={<RiShoppingBasketLine />} ariaLabel="Cart" />,
-    <Button content={<LuUser />} ariaLabel="User" />,
+    <Button
+      className="header-button"
+      content={<LuSearch />}
+      ariaLabel="Search"
+    />,
+    <Button
+      className="header-button"
+      content={<RiShoppingBasketLine />}
+      ariaLabel="Cart"
+    />,
+    <Button className="header-button" content={<LuUser />} ariaLabel="User" />,
   ];
 
   return (
-    <div className="header">
+    <div className="header horizontal">
       <Heading className="header-heading" text="Beauty" />
       <Menu className="header-nav" items={nav} />
       <Menu className="header-actions" items={actions} />

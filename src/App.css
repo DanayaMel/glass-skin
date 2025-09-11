@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
 }
-
 h1 {
   font-family: var(--font-hero);
 }
@@ -17,7 +16,7 @@ nav,
 button,
 p {
   font-family: var(--font-body);
-  font-weight: 550;
+  font-weight: 100;
 }
 
 .section--cream {
@@ -25,12 +24,13 @@ p {
 }
 
 button {
-  background: none;
+  background: #2c2c2c;
+  color: #e2e2e2; /* inherit text color */
+  font-weight: 500;
   border: none;
-  padding: 0;
+  padding: 14px;
   margin: 0;
   font: inherit; /* inherit font styles from parent */
-  color: inherit; /* inherit text color */
   line-height: inherit;
   cursor: pointer;
 }
@@ -41,15 +41,12 @@ button {
 }
 
 .horizontal {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
-}
-
-.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header {
   height: 195px;
   padding: 0px 43px; /* top+bottom = 0px, left+right = 43px */
 }
@@ -61,6 +58,7 @@ button {
 .header-nav {
   display: inline-flex;
   list-style: none;
+  font-weight: 500;
 }
 
 .header-nav li {
@@ -79,20 +77,59 @@ button {
   font-size: 25px;
 }
 
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 195px;
-  padding: 0px 43px; /* top+bottom = 0px, left+right = 43px */
+.header-button {
+  background-color: white;
+  color: #2c2c2c;
 }
 
-.hero-nav .hero-socials {
-  transform: rotate(-90deg);
-  display: inline-flex;
-  position: absolute; /* Takes it out of normal flow */
-}
-
+.hero-nav,
 .hero-socials {
+  transform: rotate(-90deg);
+  display: flex;
+  gap: 1rem; /* space between items */
+  padding: 100px 0px;
+}
+
+.hero-nav li,
+.hero-socials li {
+  /* display: flex; */
   list-style: none;
+  text-transform: lowercase;
+}
+
+.main-heading {
+  text-transform: lowercase;
+  font-size: 100px;
+  line-height: 0.9; /* unitless, relative to font-size */
+}
+
+.top-cta-text {
+  padding: 38px 0px;
+}
+
+.features {
+  padding: 145px;
+  /* padding-right: 50px; */
+  white-space: pre-line;
+}
+
+.features-heading {
+  /* letter-spacing: 10em; */
+  font-weight: 500;
+  font-size: 25px;
+  padding-right: 180px;
+}
+
+.features-card-title-ratings {
+  font-size: 50px;
+  letter-spacing: -8px;
+}
+
+.features-card-title-sales {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.features-card-description {
+  white-space: pre-line;
 }
