@@ -6,7 +6,7 @@ import { RiShoppingBasketLine } from "react-icons/ri";
 import { LuUser } from "react-icons/lu";
 
 function Header() {
-  const nav = ["Flavors", "Store", "Blog", "About Us"];
+  const nav = ["Flavors", "Store", "Blog", "About US"];
   const actions = [
     <Button
       className="header-button"

@@ -1,8 +1,11 @@
+import SubHeading from "./SubHeading";
+
 function Card(props) {
   return (
-    <div className={props.className}>
-      <h4 className={props.titleClassName}>{props.title}</h4>
-      <p className={props.descriptionClassName}>{props.description}</p>
+    <div className="card">
+      <div className={props.iconClassName}>{props.icon}</div>
+      <SubHeading className={props.titleClassName} text={props.title} />
+      <p className={props.contentClassName}>{props.content}</p>
     </div>
   );
 }

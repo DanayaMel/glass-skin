@@ -1,13 +1,13 @@
 import Benefits from "./Benefits";
 import BestSelling from "./BestSelling";
-import AboutUs from "./AboutUs";
+import AboutUS from "./AboutUS";
 
 function ProductShowcase() {
   return (
     <div className="product-showcase">
       <Benefits />
       <BestSelling />
-      <AboutUs />
+      <AboutUS />
     </div>
   );
 }

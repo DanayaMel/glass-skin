@@ -11,9 +11,9 @@ function Testimonials() {
         {/*TODO: Add actions for buttons. (Where should Icons go? Maybe make this a menu component.)*/}
       </div>
       <div>
-        <Card title="star" description="Lorem Ipsum" />
-        <Card title="star" description="Lorem Ipsum" />
-        <Card title="star" description="Lorem Ipsum" />
+        <Card title="star" content="Lorem Ipsum" />
+        <Card title="star" content="Lorem Ipsum" />
+        <Card title="star" content="Lorem Ipsum" />
       </div>
     </div>
   );

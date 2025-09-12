@@ -1,10 +1,10 @@
-import Form from "../shared/Form";
+import CTA from "../shared/CTA";
 
 function FooterCTA() {
   return (
-    <Form
+    <CTA
       title=""
-      description="Receive special offers and get our latest updates."
+      content="Receive special offers and get our latest updates."
       placeholderText="Enter e-mail."
       buttonText="Join"
     />

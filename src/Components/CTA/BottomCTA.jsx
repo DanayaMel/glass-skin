@@ -1,10 +1,10 @@
-import Form from "../shared/Form";
+import CTA from "../shared/CTA";
 
 function BottomCTA() {
   return (
-    <Form
+    <CTA
       heading="Subscribe to Newsletter"
-      description="Lorem Ipsum"
+      content="Lorem Ipsum"
       placeholderText="Enter your e-mail."
       buttonText="Get Started"
     />

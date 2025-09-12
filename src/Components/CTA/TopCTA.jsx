@@ -1,4 +1,4 @@
-import Button from "../shared/Button";
+import CTA from "../shared/CTA";
 
 function TopCTA() {
   return (
@@ -8,13 +8,13 @@ function TopCTA() {
         <br />
         Rieley
       </h1>
-      <p className="top-cta-text">
-        Formulated with Goji Berry, Lemon Balm, and Vitamin E to provide
+      <CTA
+        content="Formulated with Goji Berry, Lemon Balm, and Vitamin E to provide
         antioxidant protection against free radicals. Inspired by Korean
         skincare healthy-looking skin. Formulated with Goji Berry, Lemon Balm,
-        and Vitamin E to provide antioxidant protection against free radicals.
-      </p>
-      <Button content="Buy Now | $39.99" />
+        and Vitamin E to provide antioxidant protection against free radicals."
+        buttonText="Buy Now | $39.99"
+      />
     </div>
   );
 }

@@ -7,8 +7,13 @@
   margin: 0;
   padding: 0;
 }
+
 h1 {
   font-family: var(--font-hero);
+}
+
+h2 {
+  white-space: pre-line;
 }
 
 body,
@@ -23,27 +28,47 @@ p {
   background-color: #fffaee;
 }
 
+h4 {
+  font-size: 29px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
 button {
   background: #2c2c2c;
   color: #e2e2e2; /* inherit text color */
   font-weight: 500;
   border: none;
-  padding: 14px;
-  margin: 0;
+  display: inline-block; /* shrink to fit text */
   font: inherit; /* inherit font styles from parent */
-  line-height: inherit;
-  cursor: pointer;
+  cursor: pointer; /* TODO: Add confetti on click? */
+  margin: 0 auto; /* center inside block container */
+  padding: 15px 19px; /* space around text */
+  margin-top: 16px;
 }
 
 .vertical {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .horizontal {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.cards {
+  justify-content: space-around;
+  padding: 25px 100px;
+  font-size: 18px;
+}
+
+.card {
+  text-align: center;
+  width: 270px;
+  word-spacing: -1.3px;
 }
 
 .header {
@@ -91,7 +116,8 @@ button {
   transform: rotate(-90deg);
   display: flex;
   gap: 1rem; /* space between items */
-  padding: 100px 0px;
+  padding: 120px 0px;
+  margin: 0px -100px;
 }
 
 .hero-nav li,
@@ -112,13 +138,12 @@ button {
 }
 
 .top-cta-text {
-  padding: 38px 0px;
+  padding-top: 38px;
   font-size: 14px;
 }
 
 .features {
   padding: 55px;
-  white-space: pre-line;
   justify-content: space-evenly;
 }
 
@@ -138,6 +163,43 @@ button {
   letter-spacing: 5px;
 }
 
-.features-card-description {
+.features-card-content {
   white-space: pre-line;
+}
+
+.benefits-heading {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.benefit-card-icon {
+  font-size: 80px;
+}
+
+.best-selling-heading {
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.best-selling-card-icon {
+  width: 230px;
+  height: auto;
+}
+
+.best-selling-cards {
+  justify-content: space-around;
+  padding: 25px 100px;
+  font-size: 18px;
+}
+
+.about-us {
+  text-align: left;
+  width: 605px;
+  margin: 0 auto; /* centers the block */
+  word-spacing: -1.3px;
+  font-size: 18px;
 }
