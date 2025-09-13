@@ -130,6 +130,7 @@ button {
   text-transform: lowercase;
   font-size: 120px;
   line-height: 0.9; /* unitless, relative to font-size */
+  padding-bottom: 50px;
 }
 
 .top-cta {
@@ -197,9 +198,46 @@ button {
 }
 
 .about-us {
-  text-align: left;
-  width: 605px;
-  margin: 0 auto; /* centers the block */
+  padding-top: 95px;
+  padding-left: 0px;
+  width: 1396px;
+}
+
+.about-us-heading {
   word-spacing: -1.3px;
-  font-size: 18px;
+  font-size: 55px;
+  padding-right: 70px;
+}
+
+.about-us img {
+  padding: 60px;
+  padding-left: 90px;
+  width: 650px;
+  height: auto;
+}
+
+.testimonials {
+  padding: 80px 80px;
+}
+
+.testimonials-heading {
+  font-size: 40px;
+}
+
+.testimonials-nav {
+  list-style: none;
+  padding-top: 120px;
+}
+
+.testimonials-nav li svg {
+  width: 50px;
+  height: 50px;
+}
+
+.testimonials-cards > .card {
+  width: 380px;
+  height: 330px;
+  padding: 20px;
+  background-color: white;
+  text-align: left;
 }
