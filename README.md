@@ -2,6 +2,7 @@
 ### To run:
 ```
 cd pastel-objects
+npm install
 npm run dev
 ```
 <img src="https://github.com/user-attachments/assets/55c46a43-c54b-471b-8151-dfb7df7fef83" width=500px; heigh=auto text-align=center />
