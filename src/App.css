@@ -220,13 +220,17 @@ button {
   padding: 80px 80px;
 }
 
+.testimonials-card {
+}
+
 .testimonials-heading {
   font-size: 40px;
 }
 
 .testimonials-nav {
   list-style: none;
-  padding-top: 120px;
+  padding-top: 20px;
+  padding-bottom: 115px;
 }
 
 .testimonials-nav li svg {
@@ -234,10 +238,29 @@ button {
   height: 50px;
 }
 
+.testimonials-nav li > * {
+  padding: 0px;
+}
+
 .testimonials-cards > .card {
-  width: 380px;
+  width: 340px;
   height: 330px;
-  padding: 20px;
+  padding: 30px;
   background-color: white;
   text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  gap: 1rem; /* uniform spacing between children */
+}
+
+.testimonials-card-profile {
+  justify-content: left;
+}
+
+.testimonials-card-avatar {
+  margin-right: 20px;
+}
+
+.testimonials-card-text {
+  padding-top: 45px;
+  padding-bottom: 65px;
 }
