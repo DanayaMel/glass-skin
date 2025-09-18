@@ -254,3 +254,27 @@ button {
   padding-top: 45px;
   padding-bottom: 65px;
 }
+
+.footer {
+  padding: 75px;
+  padding-top: 220px;
+}
+
+.footer-socials {
+  list-style: none;
+  justify-content: normal;
+}
+
+.footer-socials li {
+  padding: 3px;
+}
+
+.footer-socials li svg {
+  width: 25px;
+  height: 100%;
+}
+
+.footer-nav {
+  list-style: none;
+  text-align: left;
+}
