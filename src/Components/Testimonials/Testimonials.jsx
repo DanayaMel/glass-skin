@@ -32,8 +32,8 @@ function Testimonials() {
   return (
     <div className="testimonials section--cream">
       <div className="horizontal">
-        <Heading className="testimonials-heading" text="Testimonials" />
-        {/*TODO: Add actions for buttons. (Where should Icons go? Maybe make this a menu component.)*/}
+        <h1 className="testimonials-heading">Testimonials</h1>
+        {/*TODO: Add actions for buttons. (Possible confetti clicks)*/}
         <Menu className="testimonials-nav horizontal" items={nav} />
       </div>
       <div className="testimonials-cards horizontal">
@@ -66,7 +66,7 @@ function Testimonials() {
           title="⭐⭐⭐⭐⭐"
           content={
             <TestimonialContent
-              text="Suspendisse vel odio at ligula ornare vulputate in euismod risus. Vestibulum maximus, augue sit amet fermentum porta, mauris mi egestas."
+              text="Suspendisse vel odio at ligula ornare vulputate in euismod risus. Vestibulum maximus, augue sit amet fermentum porta, mauris mi egestas. Eugue sit amet."
               name="Alex Lee"
               role="Product Manager"
               avatarConfig={genConfig("alex@lee.com")}
