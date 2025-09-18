@@ -6,7 +6,6 @@ cd pastel-objects
 npm install
 npm run dev
 ```
-<img width="100%" height="100%" alt="Opera Snapshot_2025-09-18_034638_localhost" src="https://github.com/user-attachments/assets/911c53d7-932f-4c35-a760-cf788613062e" />
-
+<img width="100%" height="100%" alt="newest" src="https://github.com/user-attachments/assets/746e3126-d4bd-4201-b103-2767001f9627" />
 
 https://github.com/user-attachments/assets/55c46a43-c54b-471b-8151-dfb7df7fef83
