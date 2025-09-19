@@ -6,9 +6,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-h2 {
   white-space: pre-line;
 }
 
@@ -123,6 +120,14 @@ button {
   text-transform: lowercase;
 }
 
+.hero-image {
+  width: 1430px;
+  height: auto;
+  position: relative;
+  transform: translate(-40px, -150px);
+  z-index: -1; /* lower number = behind */
+}
+
 .top-cta-heading {
   text-transform: lowercase;
   font-size: 120px;
@@ -132,13 +137,12 @@ button {
 }
 
 .top-cta {
-  padding: 0px 42px;
+  transform: translate(-300px, -100px);
   word-spacing: -0.1em;
 }
 
 .top-cta-text {
-  padding-top: 38px;
-  font-size: 14px;
+  width: 800px;
 }
 
 .features {
@@ -160,10 +164,6 @@ button {
 .features-card-title-sales {
   font-size: 50px;
   letter-spacing: 5px;
-}
-
-.features-card-content {
-  white-space: pre-line;
 }
 
 .benefits-heading {
@@ -256,35 +256,6 @@ button {
   padding-bottom: 65px;
 }
 
-.footer {
-  padding: 75px;
-  padding-top: 220px;
-  align-items: flex-start;
-}
-
-.footer-socials {
-  list-style: none;
-  justify-content: normal;
-}
-
-.footer-socials li {
-  padding: 3px;
-}
-
-.footer-socials li svg {
-  width: 25px;
-  height: 100%;
-}
-
-.footer-nav {
-  list-style: none;
-  text-align: left;
-}
-
-.footer-nav li {
-  padding-bottom: 15px;
-}
-
 .bottom-cta img {
   padding: 60px;
   padding-left: 90px;
@@ -323,6 +294,35 @@ button {
   padding-bottom: 50px;
   padding-top: 10px;
   font-size: 20px;
+}
+
+.footer {
+  padding: 75px;
+  padding-top: 220px;
+  align-items: flex-start;
+}
+
+.footer-socials {
+  list-style: none;
+  justify-content: normal;
+}
+
+.footer-socials li {
+  padding: 3px;
+}
+
+.footer-socials li svg {
+  width: 25px;
+  height: 100%;
+}
+
+.footer-nav {
+  list-style: none;
+  text-align: left;
+}
+
+.footer-nav li {
+  padding-bottom: 15px;
 }
 
 .contact {

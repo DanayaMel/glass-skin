@@ -9,10 +9,10 @@ function TopCTA() {
         Rieley
       </h1>
       <CTA
-        content="Formulated with Goji Berry, Lemon Balm, and Vitamin E to provide
-        antioxidant protection against free radicals. Inspired by Korean
-        skincare healthy-looking skin. Formulated with Goji Berry, Lemon Balm,
-        and Vitamin E to provide antioxidant protection against free radicals."
+        className="top-cta-text"
+        content={
+          "Formulated with Goji Berry, Lemon Balm, and Vitamin E to\nprovide antioxidant protection against free radicals. Inspired\nby Korean skincare healthy-looking skin. Formulated with\nGoji Berry, Lemon Balm, and Vitamin E to provide antioxidant\nprotection against free radicals."
+        }
         buttonText="Buy Now | $39.99"
       />
     </div>
