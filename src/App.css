@@ -6,7 +6,6 @@
 * {
   margin: 0;
   padding: 0;
-  white-space: pre-line;
 }
 
 body,
@@ -142,12 +141,14 @@ button {
 }
 
 .top-cta-text {
+  white-space: pre-line;
   width: 800px;
 }
 
 .features {
-  padding: 55px;
+  white-space: pre-line;
   justify-content: space-evenly;
+  padding: 55px;
 }
 
 .features-heading {
@@ -302,6 +303,10 @@ button {
   align-items: flex-start;
 }
 
+.footer-meta p {
+  padding-bottom: 50px;
+}
+
 .footer-socials {
   list-style: none;
   justify-content: normal;
@@ -334,6 +339,10 @@ button {
   padding: 0px 10px;
   padding-top: 5px;
   vertical-align: top;
+}
+
+.footer-cta {
+  white-space: pre-line;
 }
 
 .footer-cta input {

@@ -14,7 +14,7 @@ function Footer() {
 
   return (
     <div className="footer section--cream horizontal">
-      <div className="vertical">
+      <div className="footer-meta vertical">
         <p>Love to Learn Yourself!</p>
         <Socials className="footer-socials horizontal" />
       </div>
