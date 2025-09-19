@@ -12,8 +12,9 @@ function BestSelling() {
           <Card
             icon={
               <img
-                src="..\src\assets\khiels1.avif"
+                src="../src/assets/kiehls10.webp"
                 className="best-selling-card-icon"
+                style={{ width: 480, transform: "translate(-104px, 0)" }}
               />
             }
             title="Good Genes"
@@ -28,8 +29,10 @@ function BestSelling() {
             className="best-selling-card-2"
             icon={
               <img
-                src="..\src\assets\khiels2.avif"
+                src="..\src\assets\khiels1.avif"
                 className="best-selling-card-icon"
+                style={{ width: 600, transform: "translate(-235px, -23px)" }}
+                alt="Flash Fix Kit"
               />
             }
             title="Flash Fix Kit"
@@ -44,8 +47,13 @@ function BestSelling() {
             className="best-selling-card-3"
             icon={
               <img
-                src="..\src\assets\khiels3.avif"
+                src="../src/assets/kiehls8.webp"
                 className="best-selling-card-icon"
+                style={{
+                  width: 410,
+                  zIndex: -1,
+                  transform: "translate(-80px, 0)",
+                }}
               />
             }
             title="Ceramic Slip"
@@ -53,7 +61,10 @@ function BestSelling() {
             content={library.bestSelling.third}
             contentClassName="best-selling-card-content-3"
           />
-          <Button content="Buy Now | $39.99" />
+          <Button
+            className="best-selling-card-button-3"
+            content="Buy Now | $39.99"
+          />
         </div>
       </div>
     </div>
