@@ -6,7 +6,7 @@ cd pastel-objects
 npm install
 npm run dev
 ```
-<img width="100%" height="100%" alt="latest" src="https://github.com/user-attachments/assets/24124b49-31ed-453a-9d40-260e4f4eef92" />
+<img width="100%" height="100%" alt="latest" src="https://github.com/user-attachments/assets/e2ca7456-07cf-45dc-8300-153e4b766daf" />
 
 
 https://github.com/user-attachments/assets/55c46a43-c54b-471b-8151-dfb7df7fef83
