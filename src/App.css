@@ -132,7 +132,7 @@ button {
   text-transform: lowercase;
   font-size: 120px;
   line-height: 0.9; /* unitless, relative to font-size */
-  padding-bottom: 50px;
+  margin-bottom: 60px;
   font-family: var(--font-hero);
 }
 
@@ -334,4 +334,18 @@ button {
   padding: 0px 10px;
   padding-top: 5px;
   vertical-align: top;
+}
+
+.footer-cta input {
+  padding: 15px 0px;
+  margin-right: 10px;
+}
+
+.footer-cta input::placeholder {
+  padding-left: 15px;
+}
+
+.footer-cta button {
+  padding: 0px 20px;
+  height: 49px;
 }
