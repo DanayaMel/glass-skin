@@ -15,7 +15,8 @@ h2 {
 body,
 nav,
 button,
-p {
+p,
+input::placeholder {
   font-family: var(--font-body);
   font-weight: 100;
 }
@@ -258,6 +259,7 @@ button {
 .footer {
   padding: 75px;
   padding-top: 220px;
+  align-items: flex-start;
 }
 
 .footer-socials {
@@ -277,4 +279,59 @@ button {
 .footer-nav {
   list-style: none;
   text-align: left;
+}
+
+.footer-nav li {
+  padding-bottom: 15px;
+}
+
+.bottom-cta img {
+  padding: 60px;
+  padding-left: 90px;
+  width: 650px;
+  height: auto;
+}
+
+.bottom-cta {
+  padding-top: 95px;
+  width: 1396px;
+}
+
+.bottom-cta-heading {
+  word-spacing: -1.3px;
+  font-size: 40px;
+  padding-right: 70px;
+}
+
+.bottom-cta input {
+  width: 430px;
+  height: 50px;
+}
+
+.bottom-cta input::placeholder {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.bottom-cta button {
+  margin-left: 8px;
+  padding: 0px 32px;
+  height: 54px;
+}
+
+.bottom-cta p {
+  padding-bottom: 50px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.contact {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.contact-icon {
+  padding: 0px 10px;
+  padding-top: 5px;
+  vertical-align: top;
 }

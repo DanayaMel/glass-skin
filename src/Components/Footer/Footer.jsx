@@ -4,7 +4,13 @@ import Contact from "./Contact";
 import FooterCTA from "../CTA/FooterCTA";
 
 function Footer() {
-  const nav = ["Best Seller", "Skin Products", "Track Your Order", "About Us"];
+  const nav = [
+    "Best Seller",
+    "Skin Products",
+    "Beauty Products",
+    "Track Your Order",
+    "About Us",
+  ];
 
   return (
     <div className="footer section--cream horizontal">

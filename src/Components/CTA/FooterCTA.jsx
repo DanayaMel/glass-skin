@@ -5,7 +5,7 @@ function FooterCTA() {
     <CTA
       title=""
       content="Receive special offers and get our latest updates."
-      placeholderText="Enter e-mail."
+      inputPlaceholderText="Enter e-mail."
       buttonText="Join"
     />
   );
