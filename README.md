@@ -1,6 +1,6 @@
 ### A sample site for practicing purposes. Saw the mockup image on pixaybay, wanted to re-create it myself.
 The original can be found here: https://dribbble.com/shots/19997300-Organic-Product-Landing-Page-Design-Shopify-Store (Mike Taylor for Shopified).
-### To run:
+### To run (must have npm installed):
 ```
 cd pastel-objects
 npm install
